@@ -24,3 +24,7 @@ local.properties
 
 # PDT-specific
 .buildpath
+
+# Remove target folder and its subfolders in case of a Maven build
+target/**
+
